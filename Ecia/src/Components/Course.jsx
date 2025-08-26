@@ -27,7 +27,7 @@ const Courses = () => {
   ];
 
   return (
-    <section className="py-16 px-8 bg-[#f7f7f7] px-[120px]">
+    <section className=" mt-[80px]  bg-[#f7f7f7] px-[120px]">
       <div className="container mx-auto text-center">
         <h2 className="text-[36px] font-bold mb-[40px]">Our Courses</h2>
 

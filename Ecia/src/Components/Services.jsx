@@ -31,7 +31,7 @@ const Services = () => {
   ];
 
   return (
-    <section className=" bg-[#f7f7f7] rounded-[14px] mt-[172px]  ">
+    <section className=" bg-[#f7f7f7] rounded-[14px] mt-[80px]  ">
         
       {/* Section Title */}
       <h2 className="text-3xl font-bold pt-[140px] text-center mb-10">Our Services</h2>

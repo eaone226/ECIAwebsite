@@ -5,6 +5,7 @@ import Courses from "../Components/Course";
 import Features from "../Components/cards";
 import Services from "../Components/Services";
 import Banner from "../Components/Banner";
+import About from "../Components/About";
 import Footer from "../Components/Footer";
 const LandingPage = () => {
     return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
             <Features />
             <Services />
             <Banner />
+            <About />
             <Footer />
         </div>
     );
