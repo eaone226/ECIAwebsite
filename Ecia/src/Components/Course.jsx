@@ -29,7 +29,7 @@ const Courses = () => {
   return (
     <section className=" mt-[80px]  bg-[#f7f7f7] px-[120px]">
       <div className="container mx-auto text-center">
-        <h2 className="text-[36px] font-bold mb-[40px]">Our Courses</h2>
+        <h2 className="text-[36px] font-bold mb-[40px]">Courses</h2>
 
         {/* Flex Cards */}
         <div className="flex flex-wrap justify-center gap-[13px]">
