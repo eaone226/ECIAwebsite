@@ -37,12 +37,12 @@ const Services = () => {
       <h2 className="text-[36px] font-bold pt-[140px] text-center mb-10">Services</h2>
         {/* Scroll Arrows */}
       <button
-        className="absolute  mt-[218px] left-[100px] drop-shadow-2xl w-[50px] h-[50px] transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10"
+        className="absolute  mt-[218px] left-[100px] drop-shadow-2xl w-[50px] h-[50px] transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10 cursor-pointer"
       >
         <ChevronLeft className=" text-[#0367fc]" size={30}  />
       </button>
       <button
-        className="absolute right-[100px] mt-[218px] transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10"
+        className="absolute right-[100px] mt-[218px] transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10 cursor-pointer"
         
       >
         <ChevronRight className=" text-[#0367fc]" size={30}  />
@@ -63,7 +63,7 @@ const Services = () => {
                 className="  object-cover mt-[30px] rounded-lg"
               />
               {/* Circle Icon */}
-              <div className="absolute bg-[#f7f7f7] rounded-full w-[65px] h-[68px] -bottom-6 left-1/2 transform -translate-x-1/2">
+              <div className="absolute bg-[#f7f7f7] rounded-full w-[65px] h-[68px] -bottom-6 left-1/2 transform -translate-x-1/2 ">
                 <div className="w-[50px] mt-[9px] ml-[8px] h-[50px] bg-[#0367fc] rounded-full flex items-center justify-center shadow-md">
                   <img src={service.icon} alt="icon" className="w-6 h-6" />
                 </div>

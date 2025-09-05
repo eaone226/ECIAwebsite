@@ -87,7 +87,7 @@ const Courses = () => {
               </div>
 
               {/* Title always visible before hover */}
-              <div className="absolute bottom-4 left-4 right-4 text-left mb-[62px] pointer-events-none group-hover:opacity-0 transition-opacity duration-300">
+              <div className="absolute bottom-4 left-4 right-4 text-left mb-[20px] pointer-events-none group-hover:opacity-0 transition-opacity duration-300">
                 <h3 className="text-white text-[24px] font-bold drop-shadow-lg">
                   {course.title}
                 </h3>

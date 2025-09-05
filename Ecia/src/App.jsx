@@ -1,8 +1,9 @@
+import Aboutscreen from "./Screen/Aboutscreen";
 import LandingPage from "./Screen/landingpage";
 const App = () => {
     return (
         <div>
-            <LandingPage />
+            <Aboutscreen />
         </div>
     );
 }
